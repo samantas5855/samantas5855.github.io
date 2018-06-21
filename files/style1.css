@@ -1,0 +1,26 @@
+﻿@charset "UTF-8";
+body {
+	background: #ffffff;
+}
+
+.card-action {
+    font-size: 17px;
+    line-height: 1.25;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    word-break: break-word;
+    padding-top: 0px;
+}
+.card-action:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    height: 22.5px;
+    background: linear-gradient(to right, rgba(255,255,255,0), #fff 50%);
+}
+.container .row {
+}
+
